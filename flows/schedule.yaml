@@ -1,0 +1,28 @@
+name: schedule
+states:
+    clear_counter:
+        component: meya.set
+        properties:
+            scope: user
+            key: schedule_counter
+            value: 0
+    text_state:
+        component: meya.text
+        properties:
+            text: Starting test schedule flow (5 x 5 sec.)...
+    start_schedule_state:
+        flow: meya.schedule
+        data:
+            tag: test_schedule
+            flow: output
+            period: seconds
+            interval: 5
+            max_count: 5
+        transitions:
+            next: debug_text_state
+            stop: debug_text_state
+            end: debug_text_state
+    debug_text_state:
+        component: meya.text
+        properties:
+            text: '{{ flow }}'

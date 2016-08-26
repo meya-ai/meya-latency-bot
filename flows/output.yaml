@@ -1,0 +1,11 @@
+name: output
+states:
+    incr:
+        component: incr
+        properties:
+            key: schedule_counter
+            scope: user
+    text_state:
+        component: meya.text
+        properties:
+            text: '{{ user.schedule_counter }}-Test output triggered.'

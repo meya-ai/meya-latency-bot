@@ -1,0 +1,6 @@
+name: weather
+states:
+    get_weather:
+        component: weather
+        properties:
+            city: Los Angeles

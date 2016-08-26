@@ -1,0 +1,4 @@
+name: gif
+states:
+    output_gif:
+        component: giphy

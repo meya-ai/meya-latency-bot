@@ -1,0 +1,4 @@
+name: pi
+states:
+    first:
+        component: pi

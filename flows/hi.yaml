@@ -1,0 +1,6 @@
+name: hi
+states:
+    first:
+        component: meya.text
+        properties:
+            text: Hi

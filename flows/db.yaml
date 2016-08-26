@@ -1,0 +1,12 @@
+name: db
+states:
+    set_state:
+        component: meya.set
+        properties:
+            key: pi
+            value: 3.141592653
+            scope: flow
+    text_state:
+        component: meya.text
+        properties:
+            text: pi is {{ flow.pi }}

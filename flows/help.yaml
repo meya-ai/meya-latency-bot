@@ -1,0 +1,10 @@
+name: help
+states:
+    first:
+        component: meya.text
+        properties:
+            text: 'Available commands: hi, pi, gif, weather, wit, db'
+    text_state:
+        component: meya.text
+        properties:
+            text: https://meya.ai/meyalatencybot

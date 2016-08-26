@@ -1,0 +1,36 @@
+-   flow: db
+    intent: meya.keyword
+    settings:
+        keyword: db
+-   flow: gif
+    intent: meya.keyword
+    settings:
+        keyword: gif
+-   flow: help
+    intent: meya.regex
+    settings:
+        pattern: help
+-   flow: hi
+    intent: meya.keyword
+    settings:
+        keyword: hi
+-   flow: output
+    intent: meya.keyword
+    settings:
+        keyword: output
+-   flow: pi
+    intent: meya.keyword
+    settings:
+        keyword: pi
+-   flow: schedule
+    intent: meya.keyword
+    settings:
+        keyword: schedule
+-   flow: weather
+    intent: meya.keyword
+    settings:
+        keyword: weather
+-   flow: wit
+    intent: meya.keyword
+    settings:
+        keyword: wit
