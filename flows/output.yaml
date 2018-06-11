@@ -1,4 +1,7 @@
-name: output
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: output
 states:
     incr:
         component: incr

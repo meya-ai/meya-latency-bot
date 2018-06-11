@@ -1,4 +1,7 @@
-name: weather
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: weather
 states:
     get_weather:
         component: weather

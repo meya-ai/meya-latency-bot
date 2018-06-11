@@ -1,4 +1,7 @@
-name: help
+triggers:
+  - type: meya.regex
+    properties:
+        pattern: help
 states:
     first:
         component: meya.text

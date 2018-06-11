@@ -1,4 +1,7 @@
-name: gif
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: gif
 states:
     output_gif:
         component: giphy

@@ -1,4 +1,7 @@
-name: db
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: db
 states:
     set_state:
         component: meya.set

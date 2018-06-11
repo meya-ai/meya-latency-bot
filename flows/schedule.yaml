@@ -1,4 +1,7 @@
-name: schedule
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: schedule
 states:
     clear_counter:
         component: meya.set

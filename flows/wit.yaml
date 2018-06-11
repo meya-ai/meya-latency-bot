@@ -1,4 +1,7 @@
-name: wit
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: wit
 states:
     yes_no_state:
         component: meya.nlp_yes_no
